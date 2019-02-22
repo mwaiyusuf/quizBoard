@@ -1,6 +1,9 @@
 body{
 text-align: center;
 }
+.opt{
+    display: inline-block;
+}
 nav{
     background-color: skyblue;
 }
@@ -12,7 +15,4 @@ nav{
 }
 #go{
 color: blue;
-}
-#go:hover{
-background-color: blue;
 }
