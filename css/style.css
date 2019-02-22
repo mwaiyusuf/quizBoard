@@ -1,6 +1,18 @@
+body{
+text-align: center;
+}
 nav{
     background-color: skyblue;
 }
 #hom{
     margin-left: 820px;
+}
+.green{
+    color: skyblue;
+}
+#go{
+color: blue;
+}
+#go:hover{
+background-color: blue;
 }
