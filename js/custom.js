@@ -79,7 +79,8 @@ function loadQuestion(questionIndex){
     opt4.textContent=q.option4;
     
 };
-function loadNextQuestion(){
+function loadNextQuestion(event){
+    event.preventDefault;
     var selectOption=document.querySelector('input[type=radio]:checked');
     if(!selectedOption){
         alert('please select your answer');
