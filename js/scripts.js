@@ -66,7 +66,7 @@ $(document).ready(function(){
 
     var percentage = (total/25)*100;
 
-    if(percentage >= 80 ){
+    if(percentage >= 70 ){
       document.getElementById("result").innerHTML="You got " + percentage + "%";
       document.getElementById("score").innerHTML="Excellent.<br> Great Job!"
 
