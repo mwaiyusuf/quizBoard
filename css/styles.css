@@ -1,5 +1,9 @@
 body{
   background-color: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  
 }
 .green{
   color: green;
@@ -107,7 +111,9 @@ ul{
   border-radius: 20px;
   padding: 10px;
 }
-
+#col{
+  margin-left: 890px;
+}
 
 #pers{
   font-family: 'Abril Fatface', cursive;
@@ -123,3 +129,14 @@ ul{
   width: 250px;
   padding: 20px;
 }
+.green-background {
+        background-color: green;
+      }
+
+      .yellow-background {
+        background-color: yellow;
+      }
+
+      .turqious-background {
+        background-color: #BBDEFB;
+      }
