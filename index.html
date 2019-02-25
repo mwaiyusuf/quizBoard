@@ -1,71 +1,111 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-<!--custom css -->
-      <link rel="stylesheet" href="css/style.css">
-<!--animate(1).css-->
-    <link rel="stylesheet" href="css/animate.css">
-<!--font awesome css-->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-
-    <title>Coding pro</title>
-  </head>
-  <body>
-
-
-      <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="#">Coding pro</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#" id="hom">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link active" href="#">curriculum</a>
-      <a class="nav-item nav-link active" href="#">News</a>
-    </div>
-  </div>
-</nav>
-      <div class="container">
-      <h1 class="animated infinite bounce" style="font-size: 55px;"><span style="color: #2196F3">C</span><span style="color: #2196F3">O</span><span style="color: #2196F3">D</span><span style="color: #2196F3">I</span><span style="color: #2196F3">N</span><span style="color: #2196F3">G</span></h1>
-      <h1 class="animated infinite jello"><span style="color: #212121">P</span><span style="color: #212121">R</span><span style="color: #212121">O</span></h1>
-          <p>Support an open future.</p>
-     <div class="progress">
-  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">67.5% of suppoters </div>
-</div>
-          <div class="container">
-<form id="register">
-                <div class="form-group">
-                  <label for="first-name">First name</label>
-                  <input id="first-name" type="text" class="form-control">
-                  <label for="second-name">Second name</label>
-                  <input id="second-name" type="text" class="form-control">
-                </div>
-</form>
-
-
-</div>
-          <button type="button" class="btn btn-outline-primary">support</button>
-          <h2>learn code for free.</h2>
-          <p><em>"With the possible of exception of the equator,everything <br>begins somewhere."</em></p>
-        <p>You have completed<span class="green"> 1 </span>of<span class="green"> 1409 </span>coding challenges</p><br>
-          <p>You have bult<span class="green"> 0 </span>out <span class="green"> 30 </span> of the projects.</p><br>
-          <p>You have earned<span class="green"> 0 </span>out of<span class="green"> 6 </span>projects</p>
-          <a href="quiz.html"> <button type="button" class="btn btn-outline-primary  btn-lg btn-block" >GO TO CODING</button></a>
-
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Rasili Club Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif|Luckiest+Guy|Playfair+Display|Staatliches" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Baloo|Bree+Serif|Luckiest+Guy|Playfair+Display|Staatliches" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Baloo|Bree+Serif|Luckiest+Guy|Playfair+Display" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="ras">
+      <div class="jumbotron">
+        <h1 id="head" class="text-uppercase">Rasili Club</h1>
+        <p>Congratulations on making it to the end of the Javascript course. In order to get your certificate you'll need to take the final test.</p>
       </div>
+      <button id="but0" class="btn btn-primary" type="button" name="button">Take Test</button>
+    </div>
+    <div class="dets">
+      <div class="jumbotron">
+        <h3 id="ent">Enter Your Details</h3>
+      </div>
+      <h4>Name:</h4>
+      <input id="name" type="text" name="name" value="" placeholder="Enter your name..">
+      <h4>Student ID No:</h4>
+      <input id="stud" type="number" name="id" value="" placeholder="Enter your student ID no..">
+      <h4>Email:</h4>
+      <input id="email" type="email" name="email" value="" placeholder="Enter your email.."><br>
+      <button id="but00" class="btn btn-primary" type="button" name="button">Submit</button>
+    </div>
+    <div class="adm">
+      <div class="jumbotron">
+        <h2 id="wel">Welcome. Good luck!</h2>
+      </div>
+      <img src="https://image.flaticon.com/icons/svg/47/47930.svg" alt="" width="300px" height="300px">
+      <h4 class="name"></h4>
+      <h4 class="stude"></h4>
+      <h4 class="em"></h4>
+       <button id="but000" class="btn btn-primary" type="button" name="button">Proceed</button>
+    </div>
+    <div id="vaj" class="jumbotron">
+      <h1 id="jav">Javascript Quiz</h1>
+    </div>
+    <form id="questions" name="first">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/custom.js"></script>
-      <script src="js/jquery-3.3.1.js"></script>
-     <script src="js/bootstrap.js"> </script>
-  </body>
+  <div class="modu">
+    <h3>1.What is the value of the following expression: 8%3?</h3>
+      <ul>
+        <li><input id="mod" type="radio" name="que1" value="0" ><strong>5</strong></li>
+        <li><input id="mod" type="radio" name="que1" value="5" ><strong>2</strong></li>
+        <li><input id="mod" type="radio" name="que1" value="0" ><strong>3</strong></li>
+        <li><input id="mod" type="radio" name="que1" value="0" ><strong>2.67</strong></li>
+      </ul>
+        <button id="but1" class="btn btn-primary" type="button" name="button" onclick = "" >Next</button>
+      </div>
+      <div class="dat">
+        <h3>2.Which of the following is not a data type?</h3>
+        <ul>
+          <li><input type="radio" name="quest2" value="0" ><strong>Boolean</strong></li>
+          <li><input type="radio" name="quest2" value="0" ><strong>String</strong></li>
+          <li><input type="radio" name="quest2" value="0" ><strong>Number</strong></li>
+          <li><input type="radio" name="quest2" value="5" ><strong>Array</strong></li>
+        </ul>
+        <button id="but2" class="btn btn-primary" type="button" name="button" onclick = "" >Next</button>
+      </div>
+      <div class="arr">
+        <h3>3.Which of the following is the correct way to create an array?</h3>
+        <ul>
+          <li><input type="radio" name="quest3" value="0" ><strong>var MyCar();</strong></li>
+          <li><input type="radio" name="quest3" value="5" ><strong>var myCar=[];</strong></li>
+          <li><input type="radio" name="quest3" value="0" ><strong>var myCar={};</strong></li>
+          <li><input type="radio" name="quest3" value="0" ><strong>var mycar=car();</strong></li>
+        </ul>
+        <button id="but3" class="btn btn-primary" type="button" name="button" onclick = "" >Next</button>
+      </div>
+      <div class="ceil">
+        <h3>4.The function Math.ceil(3.5) returns:</h3>
+        <ul>
+          <li><input type="radio" name="quest4" value="5" ><strong>4</strong></li>
+          <li><input type="radio" name="quest4" value="0" ><strong>3.6</strong></li>
+          <li><input type="radio" name="quest4" value="0" ><strong>3</strong></li>
+          <li><input type="radio" name="quest4" value="0" ><strong>3.7</strong></li>
+        </ul>
+        <button id="but4" class="btn btn-primary" type="button" name="button" onclick = "" >Next</button>
+      </div>
+    <div class="var">
+        <h3>5.Which of the following asserts that variables 'A', 'B' and 'C' have unequal values?</h3>
+    <ul>
+      <li><input type="radio" name="quest5" value="0" ><strong>A ===B && B === C && C===A</strong></li>
+      <li><input type="radio" name="quest5" value="0" ><strong>A === B || B === C || C === A</strong></li>
+      <li><input type="radio" name="quest5" value="5" ><strong>A !== B && B !== C && A !== C</strong></li>
+      <li><input type="radio" name="quest5" value="0" ><strong>A & B = C</strong></li>
+    </ul>
+    <button id="but5" class="btn btn-primary" type="button" name="button" onclick = "" >Submit</button>
+    </div>
+  </form>
+    <button id="but6" class="btn btn-primary" type="button" name="button" onclick = "" >Go back</button>
+  <div class="">
+      <h3 id="results" class="text-uppercase"></h3>
+      <h3 id ="outcome"></h3>
+      <img id ="img" alt="" >
+    </div>
+  <button id="but6" class="btn btn-primary" type="button" name="button" onclick = "" >Go back</button>
+  </div>
+</body>
 </html>

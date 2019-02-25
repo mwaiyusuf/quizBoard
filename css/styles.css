@@ -1,0 +1,115 @@
+body{
+  background-image: url("https://cdn.lynda.com/course/477451/477451-636198978267245657-16x9.jpg");
+}
+
+ul{
+  list-style-type: none;
+}
+
+#jav{
+  display: none;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Staatliches', cursive;
+  font-family: 'Baloo', cursive;
+}
+
+.adm{
+  display: none;
+}
+.modu{
+  display: none;
+}
+
+.dat{
+  display: none;
+}
+
+.arr{
+  display: none;
+}
+
+.ceil{
+  display: none;
+}
+
+.var{
+  display: none;
+}
+
+#but6{
+  display: none;
+}
+
+#vaj{
+  display: none;
+}
+
+.dets{
+  display: none;
+}
+.ras{
+  text-align: center;
+}
+
+#but0{
+  border-radius: 40px;
+  width: 200px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#but00,#but000,#but1,#but2,#but3,#but4,#but5,#but6{
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#but00{
+  margin-top: 20px;
+}
+
+#results{
+  float: left;
+  margin-right: 50px;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Staatliches', cursive;
+  }
+
+#but0:hover,#but00:hover,#but000:hover,#but1:hover,#but2:hover,#but3:hover,#but4:hover,#but5:hover,#but6:hover{
+  background-color: #212121;
+}
+
+#head{
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Baloo', cursive;
+  font-family: 'Anton', sans-serif;
+}
+
+.dets>input{
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#ent,#wel{
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Staatliches', cursive;
+  font-family: 'Baloo', cursive;
+}
+
+.name,.stude,.em{
+  border-bottom: 2px solid black;
+  width: 250px;
+  padding: 20px;
+}
