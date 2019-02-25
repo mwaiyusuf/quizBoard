@@ -1,12 +1,15 @@
 body{
-  background-image: url("https://cdn.lynda.com/course/477451/477451-636198978267245657-16x9.jpg");
+  background-color: white;
+}
+.green{
+  color: green;
 }
 
 ul{
   list-style-type: none;
 }
 
-#jav{
+#quizjay{
   display: none;
   font-family: 'Abril Fatface', cursive;
   font-family: 'Bree Serif', serif;
@@ -16,62 +19,60 @@ ul{
   font-family: 'Baloo', cursive;
 }
 
-.adm{
+.details{
   display: none;
 }
-.modu{
-  display: none;
-}
-
-.dat{
+.ques{
   display: none;
 }
 
-.arr{
+.cdn{
   display: none;
 }
 
-.ceil{
+.effects{
   display: none;
 }
 
-.var{
+.chain{
+  display: none;
+}
+#last{
+  display: none;
+}
+.ajax{
   display: none;
 }
 
-#but6{
+#jquiz{
   display: none;
 }
 
-#vaj{
+.pers{
   display: none;
 }
-
-.dets{
-  display: none;
-}
-.ras{
+.cop{
   text-align: center;
 }
 
-#but0{
+#leggo{
   border-radius: 40px;
   width: 200px;
   padding: 20px;
   font-size: 30px;
 }
 
-#but00,#but000,#but1,#but2,#but3,#but4,#but5,#but6{
+#regy,#start,#nexQue1,#nextQue2,#nextQue3,#nextQue4,#sub,#last{
   border-radius: 20px;
   font-size: 20px;
   padding: 10px;
 }
 
-#but00{
+#regy{
   margin-top: 20px;
 }
 
-#results{
+#result{
   float: left;
   margin-right: 50px;
   font-family: 'Abril Fatface', cursive;
@@ -81,11 +82,11 @@ ul{
   font-family: 'Staatliches', cursive;
   }
 
-#but0:hover,#but00:hover,#but000:hover,#but1:hover,#but2:hover,#but3:hover,#but4:hover,#but5:hover,#but6:hover{
+#leggo:hover,#regy:hover,#start:hover,#nextQue1:hover,#nextQue2:hover,#nextQue3:hover,#nextQue4:hover,#sub:hover,#last:hover{
   background-color: #212121;
 }
 
-#head{
+#h1{
   font-family: 'Abril Fatface', cursive;
   font-family: 'Bree Serif', serif;
   font-family: 'Luckiest Guy', cursive;
@@ -94,12 +95,13 @@ ul{
   font-family: 'Anton', sans-serif;
 }
 
-.dets>input{
+.pers>input{
   border-radius: 20px;
   padding: 10px;
 }
 
-#ent,#wel{
+
+#pers{
   font-family: 'Abril Fatface', cursive;
   font-family: 'Bree Serif', serif;
   font-family: 'Luckiest Guy', cursive;
@@ -108,7 +110,7 @@ ul{
   font-family: 'Baloo', cursive;
 }
 
-.name,.stude,.em{
+.name,.phone,.email{
   border-bottom: 2px solid black;
   width: 250px;
   padding: 20px;

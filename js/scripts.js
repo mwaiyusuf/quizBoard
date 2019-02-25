@@ -1,60 +1,60 @@
 $(document).ready(function(){
-  $("button#but0").click(function (){
-    $(".ras").slideUp()
-    $(".dets").show();
+  $("button#leggo").click(function (){
+    $(".cop").slideUp()
+    $(".pers").show();
 
-    $("button#but00").click(function (){
-      $(".dets").hide()
-      $(".adm").show();
+    $("button#regy").click(function (){
+      $(".pers").hide()
+      $(".details").show();
 
       var nameInput =$("input#name").val();
-      var idInput = $("input#stud").val();
+      var phoneInput = $("input#phone").val();
       var emailInput = $("input#email").val();
 
       $(".name").text(nameInput);
-      $(".stude").text(idInput);
-      $(".em").text(emailInput);
+      $(".phone").text(phoneInput);
+      $(".email").text(emailInput);
 
       event.preventDefault();
     })
   });
 
-  $("button#but000").click(function(){
-    $(".adm").hide()
-    $("#jav").show()
-    $("#vaj").show()
-    $(".modu").show();
+  $("button#start").click(function(){
+    $(".details").hide()
+    $("#quizjay").show()
+    $("#jquiz").show()
+    $(".ques").show();
 
   })
-  $("button#but1").click(function(){
-    $(".modu").hide();
-    $(".dat").show();
+  $("button#nextQue1").click(function(){
+    $(".ques").hide()
+    $(".cdn").show();
   });
 
-  $("button#but2").click(function(){
-    $(".dat").hide()
-    $(".arr").show();
+  $("button#nextQue2").click(function(){
+    $(".cdn").hide()
+    $(".effects").show();
   });
 
-  $("button#but3").click(function(){
-    $(".arr").hide()
-    $(".ceil").show();
+  $("button#nextQue3").click(function(){
+    $(".effects").hide()
+    $(".chain").show();
   });
 
-  $("button#but4").click(function(){
-    $(".ceil").hide()
-    $(".var").show();
+  $("button#nextQue4").click(function(){
+    $(".chain").hide()
+    $(".ajax").show();
   });
 
-  $("button#but5").click(function(){
-    $(".var").hide()
-    $("#results").show()
-    $("#outcome").show()
-    $("#img").show()
-    $("#but6").show();
+  $("button#sub").click(function(){
+    $(".ajax").hide()
+    $("#result").show()
+    $("#score").show()
+    $("#image").show()
+    $("#last").show();
   });
 
-  $("button#but5").click(function(event){
+  $("button#sub").click(function(event){
     event.preventDefault();
     var score=0;
     var quesOne = parseInt($("input[name='que1']:checked").val());
@@ -67,31 +67,31 @@ $(document).ready(function(){
     var percentage = (total/25)*100;
 
     if(percentage >= 80 ){
-      document.getElementById("results").innerHTML="You got " + percentage + "%";
-      document.getElementById("outcome").innerHTML="Excellent job! You are ready to be a coder!"
-      document.getElementById("img").src="https://media1.tenor.com/images/f676ac7683d9d3c545ddea12ec05b60b/tenor.gif?itemid=4115420"
+      document.getElementById("result").innerHTML="You got " + percentage + "%";
+      document.getElementById("score").innerHTML="Excellent.<br> Great Job!"
+
     }
     else if(percentage >= 50){
-      document.getElementById("results").innerHTML="You got " + percentage + "%";
-      document.getElementById("outcome").innerHTML="That was a great attempt."
-      document.getElementById("img").src="https://media.tenor.com/images/937a27fddf2716840fce110c6e0a1414/tenor.gif"
+      document.getElementById("result").innerHTML="You got " + percentage + "%";
+      document.getElementById("score").innerHTML="Very Good <br> keep it up!."
+
     }
     else{
-      document.getElementById("results").innerHTML="You got " + percentage + "%";
-      document.getElementById("outcome").innerHTML="That was a poor attempt. You need to retake the test."
-      document.getElementById("img").src="https://media.tenor.com/images/1a4f871c86ba1383170b2e187edb98a5/tenor.gif"
+      document.getElementById("result").innerHTML="You got " + percentage + "%";
+      document.getElementById("score").innerHTML="Not well done,you have tried but you need to retake please. ."
+
     }
 
   })
 
-  $("#but6").click(function(){
-    $("#results").hide()
-    $("#outcome").hide()
-    $("#but6").hide()
-    $("#img").hide()
-    $("#jav").hide()
-    $("#vaj").hide()
-    $(".ras").show();
+  $("#last").click(function(){
+    $("#result").hide()
+    $("#score").hide()
+    $("#last").hide()
+    $("#image").hide()
+    $("#quizjay").hide()
+    $("#jquiz").hide()
+    $(".cop").show();
   })
 
 });
