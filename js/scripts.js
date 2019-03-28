@@ -17,7 +17,7 @@ $(document).ready(function(){
 
       event.preventDefault();
     })
-  });
+  }); 
 
   $("button#start").click(function(){
     $(".details").hide()
