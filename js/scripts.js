@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $("button#leggo").click(function (){
-    $(".cop").slideUp()
+    $(".cop").slideUp() 
     $(".pers").show();
 
     $("button#regy").click(function (){
@@ -17,7 +17,7 @@ $(document).ready(function(){
 
       event.preventDefault();
     })
-  }); 
+  });
 
   $("button#start").click(function(){
     $(".details").hide()
